@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import grumpyOldMan from '../assets/images/grumpy_old_man.png'
-import { Flex } from 'rebass'
+import grumpyOldMan from '../../assets/images/grumpy_old_man.png'
+import './styles.scss'
+
 const Header = ({ siteTitle }) => (
-  <Flex alignItems="center" justifyContent="center">
+  <div className="header">
     <h1 style={{ margin: 0, textAlign: 'center' }}>
       <Link to="/">
         <img src={grumpyOldMan} alt="becoming a grumpy old man" />
@@ -11,7 +12,8 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h1>
-  </Flex>
+    <p>fuck it, I am to old for this, get off my lawn</p>
+  </div>
 )
 
 export default Header

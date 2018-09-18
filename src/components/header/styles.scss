@@ -1,0 +1,33 @@
+.header {
+    // background: salmon;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    p {
+        text-align: center
+    }
+
+    h1 {
+        font-size: 5vw;
+        font-weight: 900;
+
+        &:after {
+            position: relative;
+            text-decoration: none;
+            border-bottom: 1.3vw solid fade-out(#ffcd08, 0.6);
+            bottom: 1.3vw;
+            left: -2px;
+            right: -2px;
+            z-index: -1;
+            content: '';
+            width: 100%;
+            display: block
+        }
+
+
+
+    }
+}
