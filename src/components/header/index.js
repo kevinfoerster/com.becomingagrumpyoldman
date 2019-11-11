@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         {siteTitle}
       </Link>
     </h1>
-    <p>fuck it, I am too old for this shit, get off my lawn</p>
+    <p>fuck it, I am too young for this shit, get off my lawn</p>
   </div>
 )
 
